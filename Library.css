@@ -2,6 +2,11 @@ html, body {
     height: 100%;
     margin: 0;
     box-sizing: border-box;
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+        
+
 }
 
 .d-flex {
@@ -110,56 +115,50 @@ border: solid 2px #080d36;
 
 /*Botones*/
 
-.buttom {
-    padding: 10px 30px;
-    background-color: #4c56af;
-    border-radius: 10px;
-    padding-bottom: 20px;
-}
-
-.buttom2 {
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
+.button_style {
     background-color: #6be9ff;
-    margin-block: 10px;
-    text-decoration: none;
-    color: #080d36;
-    font-weight: 600;
-}
-
-.buttom2-v2 {
-    padding: 5px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
     border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    background-color: #6be9ff;
-    margin-block: 10px;
-    text-decoration: none;
-    color: #080d36;
-    font-weight: 600;
-}
+    border-radius: 6px;
+    color:#08092b;
 
-.buttom2:hover {
-    background-color: #5cbefc;
-}
-
-.btM {
-    padding: 0px 20px 0px 20px;
-    height: auto;
-}
-
-.boton1 {
-    border: none;
-    padding: 10px 30px;
-    background-color: #5db0ff;
-    font-size: 15px;
-    margin-block: 10px;
-    color: #fff;
-    border-radius: 5px;
 
 }
+
+.button1{
+    width: 60%;
+    height: 40px;
+    margin-block: 2%;
+    justify-content: center;
+    margin-inline: 20%;
+
+}
+
+.button1:hover  {
+    background-color: #50b3c5;
+
+}
+
+.cont-btn {
+    width: 100%;
+    
+    flex-direction: column;
+}
+
+.left {
+    float: left;
+    margin-right: 50px; /* Espacio ajustado */
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+
 
 /*Login y Register*/
 
